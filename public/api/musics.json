@@ -1,25 +1,90 @@
 {
    "albums": [
       {
-         "id":"1",
+         "id":1,
          "artist":"Starset",
-         "image":"/imgs/starset.jpg",
+         "image":"/imgs/albums/starset.jpg",
          "slug":"starset",
          "genre": "rock",
          "sounds" : [
             {
                "id": 1,
-               "sound":"",
+               "sound":"/audios/audio1.mp3",
                "title": "Demons",
-               "release_date": 2013,
-               "lyric": "<p>Mayday, mayday<br/>The ship is slowly sinking<br/>They think I'm crazy but they don't know the feeling<br/>They're all around me circling like vultures<br/>They wanna break me and wash away my colors<br/>Wash away my colors</p><p>Take me high and I'll sing<br/>Oh, you make everything okay, okay, okay (okay, okay, okay)<br/>We are one and the same</br>Oh, you take all of the pain away, away, away (away, away, away)</br>Save me if I become my demons</p><p>I cannot stop this sickness taking over<br/>It takes control and drags me into nowhere<br/>I need your help, I can't fight this forever<br/>I know you're watching, I can feel you out there</p><p>Take me high and I'll sing<br/>Oh, you make everything okay, okay, okay (okay, okay, okay)<br/>We are one and the same<br/>Oh, you take all of the pain away, away, away (away, away, away)<br/>Save me if I become my demons</p><p>Take me over the walls below<br/>Fly forever, don't let me go<br/>I need a savior to heal my pain<br/>When I become my worst enemy<br/>The enemy<br/>Take me high and I'll sing<br/>You make everything okay<br/>We are one and the same<br/>You take all of the pain away</p><p>Take me high and I'll singOh, you make everything okay, okay, okay (okay, okay, okay)<br/>We are one and the same<br/>Oh, you take all of the pain away, away, away (away, away, away)<br/>Save me if I become my demons</p><p>Take me high and I'll sing<br/>Oh, you make everything (my demons) okay, okay, okay (okay, okay, okay, my demons)<br/>We are one and the same<br/>Oh, you take all of the pain (my demons) away, away, away (away, away, away, my demons)<br/>Save me if I become my demons</p>"
+               "release_date": 2013
+            },
+            {
+               "id": 2,
+               "sound":"/audios/audio2.mp3",
+               "title": "Disappear",
+               "release_date":""
+            },
+            {
+               "id": 3,
+               "sound":"/audios/audio3.mp3",
+               "title":"Die for you",
+               "release_date":""
+            },
+            {
+               "id": 4,
+               "sound":"/audios/audio4.mp3",
+               "title":"Echo",
+               "release_date":""
+            },
+            {
+               "id": 5,
+               "sound":"/audios/audio5.mp3",
+               "title":"Halo",
+               "release_date":""
+            },
+            {
+               "id": 6,
+               "sound":"/audios/audio6.mp3",
+               "title":"Telephatic",
+               "release_date":""
+            },
+            {
+               "id": 7,
+               "sound":"/audios/audio7.mp3",
+               "title": "Gravity of you",
+               "release_date": 2013
+            },
+            {
+               "id": 8,
+               "sound":"/audios/audio8.mp3",
+               "title": "Telescope",
+               "release_date":""
+            },
+            {
+               "id": 9,
+               "sound":"/audios/audio9.mp3",
+               "title":"The future is now",
+               "release_date":""
+            },
+            {
+               "id": 10,
+               "sound":"/audios/audio10.mp3",
+               "title":"Ricochet",
+               "release_date":""
+            },
+            {
+               "id": 11,
+               "sound":"/audios/audio11.mp3",
+               "title":"Starligth",
+               "release_date":""
+            },
+            {
+               "id": 12,
+               "sound":"/audios/audio12.mp3",
+               "title":"Satellite",
+               "release_date":""
             }
          ]
       },
       {
          "id":"2",
-         "artist":"nevertel",
-         "imagem":"/imgs/nevertel.jpg",
+         "artist":"Nevertel",
+         "imagem":"/imgs/albums/nevertel.jpg",
          "slug":"nevertel",
          "genre":"rock",
          "sounds": []
@@ -27,7 +92,7 @@
       {
          "id":"3",
          "artist":"AC/DC",
-         "image":"/imgs/ac_dc.jpg",
+         "image":"/imgs/albums/ac_dc.jpg",
          "slug":"ac-dc",
          "genre":"rock",
          "sounds": [
@@ -37,7 +102,7 @@
       {
          "id":"4",
          "artist":"Linkin Park",
-         "image":"/imgs/linkin_park.jpg",
+         "image":"/imgs/albums/linkin_park.png",
          "slug":"linkin-park",
          "genre":"rock",
          "sounds": [
@@ -47,7 +112,7 @@
       {
          "id":"5",
          "artist": "Bring me the horizon",
-         "image": "/imgs/bmth.jpg",
+         "image": "/imgs/albums/bmth.jpg",
          "slug": "bring-me-the-horizon",
          "genre": "rock",
          "sounds": [
@@ -57,7 +122,7 @@
       {
          "id":"6",
          "artist":"Evanescence",
-         "image":"/imgs/evanescence.jpg",
+         "image":"/imgs/albums/evanescence.jpg",
          "slug":"evanescence",
          "genre": "rock",
          "sounds": [
@@ -67,7 +132,7 @@
       {
          "id":"7",
          "artist":"Through fire",
-         "image":"/imgs/through_fire.jpg",
+         "image":"/imgs/albums/through_fire.jpg",
          "slug":"through-fire",
          "genre": "rock",
          "sounds": [
@@ -77,7 +142,7 @@
       {
          "id":"8",
          "artist":"Bruno Mars",
-         "image":"/imgs/bruno_mars.jpg",
+         "image":"/imgs/albums/bruno_mars.jpg",
          "slug":"bruno-mars",
          "genre":"pop",
          "sounds": [
@@ -87,7 +152,7 @@
       {
          "id":"9",
          "artist":"Paramore",
-         "image":"/imgs/paramore.jpg",
+         "image":"/imgs/albums/paramore.jpg",
          "slug":"paramore",
          "genre":"rock",
          "sounds": [
@@ -97,7 +162,7 @@
       {
          "id":"10",
          "artist":"Ludovico Einaudi",
-         "image":"/imgs/ludovico_einaudi.jpg",
+         "image":"/imgs/albums/ludovico_einaudi.jpg",
          "slug":"ludovico-einaudi",
          "genre":"classic",
          "sounds": [

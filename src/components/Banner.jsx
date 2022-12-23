@@ -1,12 +1,17 @@
 import '../sass/components/banner.sass'
+import { Link } from 'react-router-dom';
 
-const Banner = () => {
+const Banner = ({title}) => {
    return(
       <section className="banner">
-         <img className='left' src="/imgs/classic_music.jpg"/>
-         <img className='right' src="/imgs/atual_music.jpg"/>
+         <img className='left' src="/imgs/classic_music.jpg" alt=""/>
+         <img className='right' src="/imgs/atual_music.jpg" alt=""/>
          <div className='center'>
-            <h1>Atuais e classicas em um só lugar</h1>
+            {title !== undefined && 
+            <div>
+               <h1>{title}</h1>
+               <Link to="/albums">Ver albums</Link>
+            </div>}
          </div>
       </section>
    )

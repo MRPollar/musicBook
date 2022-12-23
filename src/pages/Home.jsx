@@ -1,10 +1,12 @@
 import { MdOutlineEqualizer } from 'react-icons/md';
 
 import Banner from '../components/Banner';
+import Slider from '../components/Slider';
 
 import '../sass/components/home_apresentation.sass'
 
 const Home = () => {
+   document.title = 'MusicBook | HOME';
    return (
       <>
          <section className="apresentation">
@@ -15,7 +17,8 @@ const Home = () => {
                </div>
             </div>
          </section>
-         <Banner/>
+         <Banner title="Encontre os clássicos de gerações passadas e atuais em um único lugar"/>
+         <Slider/>
       </>
    )
 }
