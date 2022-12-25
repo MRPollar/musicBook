@@ -1,5 +1,6 @@
 import { MdAlbum } from 'react-icons/md';
 import { useEffect, useState } from 'react';
+import { useOutletContext } from 'react-router-dom';
 import axios from 'axios';
 
 import Banner from '../components/Banner';
@@ -10,6 +11,7 @@ import '../sass/components/albums.sass'
 const Albums = () => {
    document.title = 'MusicBook | ALBUMS';
    const [albums, setAlbums] = useState([]);
+   const { handleAlbum } = useOutletContext();
 
    const getAlbums = async (url) => {
       const { data } = await axios.get(url)
@@ -30,7 +32,7 @@ const Albums = () => {
                <h1><MdAlbum/>Albums</h1>
                {albums.length === 0 && <h2>Sem Albums para exibir</h2>}
                {albums.length > 0 && <div className='container_card'>
-                  {albums.map(album => <AlbumCard key={album.id} album={album}/>)}
+                  {albums.map(album => <AlbumCard key={album.id} album={album} handleAlbum={handleAlbum}/>)}
                </div>}
             </div>
          </section>

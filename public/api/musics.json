@@ -10,38 +10,38 @@
             {
                "id": 1,
                "sound":"/audios/audio1.mp3",
-               "title": "Demons",
+               "title": "My demons",
                "release_date": 2013
             },
             {
                "id": 2,
                "sound":"/audios/audio2.mp3",
                "title": "Disappear",
-               "release_date":""
+               "release_date": 2021
             },
             {
                "id": 3,
                "sound":"/audios/audio3.mp3",
                "title":"Die for you",
-               "release_date":""
+               "release_date": 2017
             },
             {
                "id": 4,
                "sound":"/audios/audio4.mp3",
                "title":"Echo",
-               "release_date":""
+               "release_date": 2019
             },
             {
                "id": 5,
                "sound":"/audios/audio5.mp3",
                "title":"Halo",
-               "release_date":""
+               "release_date": 2015
             },
             {
                "id": 6,
                "sound":"/audios/audio6.mp3",
                "title":"Telephatic",
-               "release_date":""
+               "release_date": 2017
             },
             {
                "id": 7,
@@ -53,41 +53,114 @@
                "id": 8,
                "sound":"/audios/audio8.mp3",
                "title": "Telescope",
-               "release_date":""
+               "release_date": 2014
             },
             {
                "id": 9,
                "sound":"/audios/audio9.mp3",
                "title":"The future is now",
-               "release_date":""
+               "release_date": 2014
             },
             {
                "id": 10,
                "sound":"/audios/audio10.mp3",
                "title":"Ricochet",
-               "release_date":""
+               "release_date": 2017
             },
             {
                "id": 11,
                "sound":"/audios/audio11.mp3",
                "title":"Starligth",
-               "release_date":""
+               "release_date": 2017
             },
             {
                "id": 12,
                "sound":"/audios/audio12.mp3",
                "title":"Satellite",
-               "release_date":""
+               "release_date": 2017
             }
          ]
       },
       {
          "id":"2",
          "artist":"Nevertel",
-         "imagem":"/imgs/albums/nevertel.jpg",
+         "image":"/imgs/albums/nevertel.jpg",
          "slug":"nevertel",
          "genre":"rock",
-         "sounds": []
+         "sounds": [
+            {
+               "id": 1,
+               "sound":"/audios/audio13.mp3",
+               "title":"Rebound",
+               "release_date": 2016
+            },
+            {
+               "id": 2,
+               "sound":"/audios/audio14.mp3",
+               "title":"No reverse",
+               "release_date": 2019
+            },
+            {
+               "id": 3,
+               "sound":"/audios/audio15.mp3",
+               "title":"Know my loneliness",
+               "release_date": 2021
+            },
+            {
+               "id": 4,
+               "sound":"/audios/audio16.mp3",
+               "title":"All good",
+               "release_date": 2019
+            },
+            {
+               "id": 5,
+               "sound":"/audios/audio17.mp3",
+               "title":"Holding on",
+               "release_date": 2019
+            },
+            {
+               "id": 6,
+               "sound":"/audios/audio18.mp3",
+               "title":"The Falling Out",
+               "release_date": 2016
+            },
+            {
+               "id": 7,
+               "sound":"/audios/audio19.mp3",
+               "title":"Live for me",
+               "release_date": 2016
+            },
+            {
+               "id": 8,
+               "sound":"/audios/audio20.mp3",
+               "title":"Paranoid",
+               "release_date": 2019
+            },
+            {
+               "id": 9,
+               "sound":"/audios/audio21.mp3",
+               "title":"The Story",
+               "release_date": 2016
+            },
+            {
+               "id": 10,
+               "sound":"/audios/audio22.mp3",
+               "title":"Weak",
+               "release_date": 2018
+            },
+            {
+               "id": 11,
+               "sound":"/audios/audio23.mp3",
+               "title":"Down",
+               "release_date": 2018
+            },
+            {
+               "id": 12,
+               "sound":"/audios/audio24.mp3",
+               "title":"Love Me Back",
+               "release_date": 2018
+            }
+         ]
       },
       {
          "id":"3",
@@ -96,7 +169,78 @@
          "slug":"ac-dc",
          "genre":"rock",
          "sounds": [
-            {}
+            {
+               "id": 1,
+               "sound":"/audios/audio25.mp3",
+               "title":"Rebound",
+               "release_date": 2016
+            },
+            {
+               "id": 2,
+               "sound":"/audios/audio26.mp3",
+               "title":"No reverse",
+               "release_date": 2019
+            },
+            {
+               "id": 3,
+               "sound":"/audios/audio27.mp3",
+               "title":"Know my loneliness",
+               "release_date": 2021
+            },
+            {
+               "id": 4,
+               "sound":"/audios/audio28.mp3",
+               "title":"All good",
+               "release_date": 2019
+            },
+            {
+               "id": 5,
+               "sound":"/audios/audio29.mp3",
+               "title":"Holding on",
+               "release_date": 2019
+            },
+            {
+               "id": 6,
+               "sound":"/audios/audio30.mp3",
+               "title":"The Falling Out",
+               "release_date": 2016
+            },
+            {
+               "id": 7,
+               "sound":"/audios/audio31.mp3",
+               "title":"Live for me",
+               "release_date": 2016
+            },
+            {
+               "id": 8,
+               "sound":"/audios/audio32.mp3",
+               "title":"Paranoid",
+               "release_date": 2019
+            },
+            {
+               "id": 9,
+               "sound":"/audios/audio33.mp3",
+               "title":"The Story",
+               "release_date": 2016
+            },
+            {
+               "id": 10,
+               "sound":"/audios/audio34.mp3",
+               "title":"Weak",
+               "release_date": 2018
+            },
+            {
+               "id": 11,
+               "sound":"/audios/audio35.mp3",
+               "title":"Down",
+               "release_date": 2018
+            },
+            {
+               "id": 12,
+               "sound":"/audios/audio36.mp3",
+               "title":"Love Me Back",
+               "release_date": 2018
+            }
          ]
       },
       {
@@ -106,12 +250,83 @@
          "slug":"linkin-park",
          "genre":"rock",
          "sounds": [
-            {}
+            {
+               "id": 1,
+               "sound":"/audios/audio37.mp3",
+               "title":"Rebound",
+               "release_date": 2016
+            },
+            {
+               "id": 2,
+               "sound":"/audios/audio38.mp3",
+               "title":"No reverse",
+               "release_date": 2019
+            },
+            {
+               "id": 3,
+               "sound":"/audios/audio39.mp3",
+               "title":"Know my loneliness",
+               "release_date": 2021
+            },
+            {
+               "id": 4,
+               "sound":"/audios/audio41.mp3",
+               "title":"All good",
+               "release_date": 2019
+            },
+            {
+               "id": 5,
+               "sound":"/audios/audio42.mp3",
+               "title":"Holding on",
+               "release_date": 2019
+            },
+            {
+               "id": 6,
+               "sound":"/audios/audio43.mp3",
+               "title":"The Falling Out",
+               "release_date": 2016
+            },
+            {
+               "id": 7,
+               "sound":"/audios/audio44.mp3",
+               "title":"Live for me",
+               "release_date": 2016
+            },
+            {
+               "id": 8,
+               "sound":"/audios/audio45.mp3",
+               "title":"Paranoid",
+               "release_date": 2019
+            },
+            {
+               "id": 9,
+               "sound":"/audios/audio46.mp3",
+               "title":"The Story",
+               "release_date": 2016
+            },
+            {
+               "id": 10,
+               "sound":"/audios/audio47.mp3",
+               "title":"Weak",
+               "release_date": 2018
+            },
+            {
+               "id": 11,
+               "sound":"/audios/audio48.mp3",
+               "title":"Down",
+               "release_date": 2018
+            },
+            {
+               "id": 12,
+               "sound":"/audios/audio49.mp3",
+               "title":"Love Me Back",
+               "release_date": 2018
+            }
          ]
       },
       {
          "id":"5",
-         "artist": "Bring me the horizon",
+         "artist": "BMTH",
          "image": "/imgs/albums/bmth.jpg",
          "slug": "bring-me-the-horizon",
          "genre": "rock",
