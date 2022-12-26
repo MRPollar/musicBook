@@ -67,12 +67,12 @@ export default function Player({ prev, next, handleMusic, handleVisible, img, al
 
       let progressWidth = (currentTime / duration) * 100
       document.querySelector(".progress").style.width = `${progressWidth}%`
-      // console.log(progressWidth);
    }
 
    const handleProgress = (e) => {
-      let audio = document.querySelector("#audio");
-      let progressWidth = e.target.clientWidth
+      const progressBar = document.querySelector(".progress_bar")
+      const audio = document.querySelector("#audio");
+      let progressWidth = progressBar.clientWidth
       let clicked = e.nativeEvent.offsetX
       audio.currentTime = (clicked / progressWidth) * audio.duration;
    }
