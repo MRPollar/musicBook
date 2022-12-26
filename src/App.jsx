@@ -10,7 +10,7 @@ function App() {
   const [album,setAlbum] = useState([]);
   const [name, setName] = useState("");
   const [id, setId] = useState(1);
-  const [musica, setMusica] = useState(0);
+  const [musica, setMusica] = useState(1);
   const [musicaName, setMusicaName] = useState("")
   const [musicaDir, setMusicaDir] = useState("");
   const [date, setDate] = useState("");
@@ -55,13 +55,39 @@ function App() {
     setDate(data.release_date);
   }
 
+  const nextMusic = () => {
+    if(musica === album.length){
+      return
+    } else {
+      let next = musica + 1;
+      loadMusic(next)
+    }
+  }
+
+  const prevMusic = () => {
+    if(musica === 1){
+      return 
+    } else {
+      let prev = musica - 1;
+      loadMusic(prev)
+    }
+  }
+
+  const loadMusic = (value) => {
+    let idMusic = album.find(m => m.id === value)
+    setMusica(idMusic.id);
+    setMusicaName(idMusic.title);
+    setMusicaDir(idMusic.sound);
+    setDate(idMusic.release_date);
+  } 
+
   return (
     <>
       <Header/>
       <main>
         <Outlet context={{handleAlbum, setVisible}}/>
       </main>
-      {visible && <Player handleMusic={handleMusic} handleVisible={handleVisible} img={img} album={album} name={name} musica={{id: musica,name:musicaName,dir:musicaDir,release: date}}/>}
+      {visible && <Player prev={prevMusic} next={nextMusic} handleMusic={handleMusic} handleVisible={handleVisible} img={img} album={album} name={name} musica={{id: musica,name:musicaName,dir:musicaDir,release: date}}/>}
       <Footer/>
     </>
   );

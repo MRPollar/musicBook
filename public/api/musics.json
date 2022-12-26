@@ -82,7 +82,7 @@
          ]
       },
       {
-         "id":"2",
+         "id":2,
          "artist":"Nevertel",
          "image":"/imgs/albums/nevertel.jpg",
          "slug":"nevertel",
@@ -163,7 +163,7 @@
          ]
       },
       {
-         "id":"3",
+         "id":3,
          "artist":"AC/DC",
          "image":"/imgs/albums/ac_dc.jpg",
          "slug":"ac-dc",
@@ -172,79 +172,79 @@
             {
                "id": 1,
                "sound":"/audios/audio25.mp3",
-               "title":"Rebound",
-               "release_date": 2016
+               "title":"Back in Black",
+               "release_date": 1980
             },
             {
                "id": 2,
                "sound":"/audios/audio26.mp3",
-               "title":"No reverse",
-               "release_date": 2019
+               "title":"Thunderstruck",
+               "release_date": 1990
             },
             {
                "id": 3,
                "sound":"/audios/audio27.mp3",
-               "title":"Know my loneliness",
-               "release_date": 2021
+               "title":"Highway to Hell",
+               "release_date": 1979
             },
             {
                "id": 4,
                "sound":"/audios/audio28.mp3",
-               "title":"All good",
-               "release_date": 2019
+               "title":"Hells Bells",
+               "release_date": 1980
             },
             {
                "id": 5,
                "sound":"/audios/audio29.mp3",
-               "title":"Holding on",
-               "release_date": 2019
+               "title":"T.N.T.",
+               "release_date": 1975
             },
             {
                "id": 6,
                "sound":"/audios/audio30.mp3",
-               "title":"The Falling Out",
-               "release_date": 2016
+               "title":"For Those About to Rock",
+               "release_date": 1981
             },
             {
                "id": 7,
                "sound":"/audios/audio31.mp3",
-               "title":"Live for me",
-               "release_date": 2016
+               "title":"Hell Ain't a Bad Place to Be",
+               "release_date": 1977
             },
             {
                "id": 8,
                "sound":"/audios/audio32.mp3",
-               "title":"Paranoid",
-               "release_date": 2019
+               "title":"Play Ball",
+               "release_date": 2014
             },
             {
                "id": 9,
                "sound":"/audios/audio33.mp3",
-               "title":"The Story",
-               "release_date": 2016
+               "title":"Rock 'N' Roll Damnation",
+               "release_date": 1978
             },
             {
                "id": 10,
                "sound":"/audios/audio34.mp3",
-               "title":"Weak",
-               "release_date": 2018
+               "title":"Rock the Blues Away",
+               "release_date": 2014
             },
             {
                "id": 11,
                "sound":"/audios/audio35.mp3",
-               "title":"Down",
-               "release_date": 2018
+               "title":"Girls Got Rhythm",
+               "release_date": 1979
             },
             {
                "id": 12,
                "sound":"/audios/audio36.mp3",
-               "title":"Love Me Back",
-               "release_date": 2018
+               "title":"War Machine",
+               "release_date": 2008
             }
          ]
       },
       {
-         "id":"4",
+         "id":4,
          "artist":"Linkin Park",
          "image":"/imgs/albums/linkin_park.png",
          "slug":"linkin-park",
@@ -253,89 +253,124 @@
             {
                "id": 1,
                "sound":"/audios/audio37.mp3",
-               "title":"Rebound",
-               "release_date": 2016
+               "title":"Numb",
+               "release_date": 2003
             },
             {
                "id": 2,
                "sound":"/audios/audio38.mp3",
-               "title":"No reverse",
-               "release_date": 2019
+               "title":"In the end",
+               "release_date": 2001
             },
             {
                "id": 3,
                "sound":"/audios/audio39.mp3",
-               "title":"Know my loneliness",
-               "release_date": 2021
+               "title":"Papercut",
+               "release_date": 2000
             },
             {
                "id": 4,
                "sound":"/audios/audio41.mp3",
-               "title":"All good",
-               "release_date": 2019
+               "title":"New Divide",
+               "release_date": 2009
             },
             {
                "id": 5,
                "sound":"/audios/audio42.mp3",
-               "title":"Holding on",
-               "release_date": 2019
+               "title":"What i've done",
+               "release_date": 2007
             },
             {
                "id": 6,
                "sound":"/audios/audio43.mp3",
-               "title":"The Falling Out",
-               "release_date": 2016
+               "title":"Iridescent",
+               "release_date": 2010
             },
             {
                "id": 7,
                "sound":"/audios/audio44.mp3",
-               "title":"Live for me",
-               "release_date": 2016
+               "title":"Burn it Down",
+               "release_date": 2012
             },
             {
                "id": 8,
                "sound":"/audios/audio45.mp3",
-               "title":"Paranoid",
-               "release_date": 2019
+               "title":"Faint",
+               "release_date": 2003
             },
             {
                "id": 9,
                "sound":"/audios/audio46.mp3",
-               "title":"The Story",
-               "release_date": 2016
-            },
-            {
-               "id": 10,
-               "sound":"/audios/audio47.mp3",
-               "title":"Weak",
-               "release_date": 2018
-            },
-            {
-               "id": 11,
-               "sound":"/audios/audio48.mp3",
-               "title":"Down",
-               "release_date": 2018
-            },
-            {
-               "id": 12,
-               "sound":"/audios/audio49.mp3",
-               "title":"Love Me Back",
-               "release_date": 2018
+               "title":"Somewhere I Belong",
+               "release_date": 2003
             }
          ]
       },
       {
-         "id":"5",
+         "id":5,
          "artist": "BMTH",
          "image": "/imgs/albums/bmth.jpg",
          "slug": "bring-me-the-horizon",
          "genre": "rock",
          "sounds": [
-            {}
+            {
+               "id": 1,
+               "sound":"/audios/audio37.mp3",
+               "title":"Numb",
+               "release_date": 2003
+            },
+            {
+               "id": 2,
+               "sound":"/audios/audio38.mp3",
+               "title":"In the end",
+               "release_date": 2001
+            },
+            {
+               "id": 3,
+               "sound":"/audios/audio39.mp3",
+               "title":"Papercut",
+               "release_date": 2000
+            },
+            {
+               "id": 4,
+               "sound":"/audios/audio41.mp3",
+               "title":"New Divide",
+               "release_date": 2009
+            },
+            {
+               "id": 5,
+               "sound":"/audios/audio42.mp3",
+               "title":"What i've done",
+               "release_date": 2007
+            },
+            {
+               "id": 6,
+               "sound":"/audios/audio43.mp3",
+               "title":"Iridescent",
+               "release_date": 2010
+            },
+            {
+               "id": 7,
+               "sound":"/audios/audio44.mp3",
+               "title":"Burn it Down",
+               "release_date": 2012
+            },
+            {
+               "id": 8,
+               "sound":"/audios/audio45.mp3",
+               "title":"Faint",
+               "release_date": 2003
+            },
+            {
+               "id": 9,
+               "sound":"/audios/audio46.mp3",
+               "title":"Somewhere I Belong",
+               "release_date": 2003
+            }
          ]
       },
       {
-         "id":"6",
+         "id":6,
          "artist":"Evanescence",
          "image":"/imgs/albums/evanescence.jpg",
          "slug":"evanescence",
@@ -345,7 +380,7 @@
          ]
       },
       {
-         "id":"7",
+         "id":7,
          "artist":"Through fire",
          "image":"/imgs/albums/through_fire.jpg",
          "slug":"through-fire",
@@ -355,7 +390,7 @@
          ]
       },
       {
-         "id":"8",
+         "id":8,
          "artist":"Bruno Mars",
          "image":"/imgs/albums/bruno_mars.jpg",
          "slug":"bruno-mars",
@@ -365,7 +400,7 @@
          ]
       },
       {
-         "id":"9",
+         "id":9,
          "artist":"Paramore",
          "image":"/imgs/albums/paramore.jpg",
          "slug":"paramore",
@@ -375,7 +410,7 @@
          ]
       },
       {
-         "id":"10",
+         "id":10,
          "artist":"Ludovico Einaudi",
          "image":"/imgs/albums/ludovico_einaudi.jpg",
          "slug":"ludovico-einaudi",
@@ -383,6 +418,22 @@
          "sounds": [
             {}
          ]
+      },
+      {
+         "id": 11,
+         "artist": "Lauv",
+         "image": "/imgs/albums/lauv.jpg",
+         "slug": "lauv",
+         "genre": "pop",
+         "sounds":[]
+      },
+      {
+         "id": 12,
+         "artist": "Michael J.",
+         "image": "/imgs/albums/MJ.jpg",
+         "slug": "michael-jackson",
+         "genre": "pop",
+         "sounds":[]
       }
    ]
 }

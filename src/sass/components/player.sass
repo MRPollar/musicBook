@@ -2,14 +2,17 @@
 section.full_player,
 section.min_player
    position: fixed
-   top: 0
-   left: 0
+   z-index: 800
 
 section.full_player
-   z-index: 800
+   display: block
    width: 100%
    height: 100%
+   top: 0
+   left: 0
    background-color: $default-color-overlay
+   &.active
+      display: none
    .center
       display: flex
       height: 100%
@@ -18,7 +21,7 @@ section.full_player
       .player
          overflow: hidden
          border-radius: 5px 
-         background-color: $default-color-purple-05
+         background-color: $default-color-black
          width: 100%
          max-width: 800px
          height: 500px
@@ -60,7 +63,6 @@ section.full_player
             ul
                height: 380px
                overflow: auto
-               background-color: $default-color-black
                li
                   border-bottom: 1px solid $default-color-purple-lighter
                   button
@@ -86,30 +88,76 @@ section.full_player
                   margin: 60px auto
                   border-radius: 50%
                   object-fit: cover
-                  animation-name: spin
-                  animation-timing-function: linear
-                  animation-iteration-count: infinite
-                  animation-duration: 10000ms
+                  &.active
+                     animation-name: spin
+                     animation-timing-function: linear
+                     animation-iteration-count: infinite
+                     animation-duration: 10000ms
+                     box-shadow: 0px 0px 51px 5px $default-color-purple-lighter
+                     transition: .3s
                @keyframes spin
                   to
                      transform: rotate(0deg)
                   from
                      transform: rotate(-360deg)
-                  
+               audio
+                  top: 0
+                  position: absolute
                .audio_control
                   padding: 15px
                   display: flex
+                  flex-wrap: wrap
                   align-items: center
+                  justify-content: center
                   width: 100%
-                  height: 70px
-                  background-color: $default-color-black
                   position: absolute
                   left: 0
                   bottom: 0
                   gap: 5px
+                  .timer
+                     display: flex
+                     align-items: center
+                     gap: 5px
+                     color: $default-color-white
+                     position: absolute
+                     top: -15px
+                     left: 15px
+                     span
+                        font-size: 12px
+                  .progress_bar
+                     width: 100%
+                     height: 6px
+                     background-color: $default-color-white
+                     margin-bottom: 5px
+                     border-radius: 5px
+                     .progress
+                        display: block
+                        border-radius: 5px
+                        width: 0
+                        background: rgb(78,49,153)
+                        background: linear-gradient(90deg, rgba(78,49,153,1) 39%, rgba(176,144,255,1) 100%)
+                        height: 100%
+                        z-index: 2
+                        position: relative
+                        .bullet
+                           display: block
+                           width: 15px
+                           height: 15px
+                           position: absolute
+                           transform: translate(-50%,-50%)
+                           top: 50%
+                           left: 100%
+                           border-radius: 50%
+                           transition: .2s
+                        &:hover
+                           .bullet
+                              background-color: $default-color-white
+                              border: 1px solid $default-color-purple-lighter
+                              cursor: pointer
+
                   button
-                     width: 40px
-                     height: 40px
+                     width: 35px
+                     height: 35px
                      cursor: pointer
                      display: flex
                      align-items: center
@@ -120,7 +168,50 @@ section.full_player
                      background-color: transparent
                      color: $default-color-purple-lighter
                      transition: .3s
+                     &.acao_min
+                        width: 25px
+                        height: 25px
+                        font-size: 18px
+                        &.active
+                           background-color: $default-color-purple-lighter
+                           color: $default-color-white
+                           box-shadow: inset 1px 1px 1px$default-color-purple-lighter,inset 5px 5px 5px $default-color-black
+                           &:hover
+                              box-shadow: inset 1px 1px 1px$default-color-purple-lighter,inset 5px 5px 5px $default-color-black
+
                      &:hover
                         box-shadow: 0px 0px 5px $default-color-purple-lighter,inset 1px 1px 1px$default-color-black,inset 5px 5px 5px $default-color-overlay
 
-            
+section.min_player
+   display: none
+   background-image: var(--bg)
+   background-size: cover
+   background-position: center
+   border: 2px solid $default-color-purple-lighter
+   top: 90px
+   left: 15px
+   width: 100px
+   height: 100px
+   &.active
+      display: block
+   .acoes
+      display: flex
+      position: absolute
+      top: 0
+      right: -15px
+      transform: translateY(-50%)
+      border: 2px solid $default-color-purple-lighter
+      button
+         border: none
+         background-color: $default-color-black
+         color: $default-color-white
+         display: flex
+         justify-content: center
+         align-items: center
+         cursor: pointer
+         gap: 10px
+         width: 30px
+         height: 30px
+         font-size: 21px
+         &.close
+            background-color: #7d0000
