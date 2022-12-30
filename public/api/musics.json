@@ -270,37 +270,37 @@
             },
             {
                "id": 4,
-               "sound":"/audios/audio41.mp3",
+               "sound":"/audios/audio40.mp3",
                "title":"New Divide",
                "release_date": 2009
             },
             {
                "id": 5,
-               "sound":"/audios/audio42.mp3",
+               "sound":"/audios/audio41.mp3",
                "title":"What i've done",
                "release_date": 2007
             },
             {
                "id": 6,
-               "sound":"/audios/audio43.mp3",
+               "sound":"/audios/audio42.mp3",
                "title":"Iridescent",
                "release_date": 2010
             },
             {
                "id": 7,
-               "sound":"/audios/audio44.mp3",
+               "sound":"/audios/audio43.mp3",
                "title":"Burn it Down",
                "release_date": 2012
             },
             {
                "id": 8,
-               "sound":"/audios/audio45.mp3",
+               "sound":"/audios/audio44.mp3",
                "title":"Faint",
                "release_date": 2003
             },
             {
                "id": 9,
-               "sound":"/audios/audio46.mp3",
+               "sound":"/audios/audio45.mp3",
                "title":"Somewhere I Belong",
                "release_date": 2003
             }
@@ -315,57 +315,57 @@
          "sounds": [
             {
                "id": 1,
-               "sound":"/audios/audio37.mp3",
-               "title":"Numb",
-               "release_date": 2003
+               "sound":"/audios/audio46.mp3",
+               "title":"Throne",
+               "release_date": 2015
             },
             {
                "id": 2,
-               "sound":"/audios/audio38.mp3",
-               "title":"In the end",
-               "release_date": 2001
+               "sound":"/audios/audio47.mp3",
+               "title":"Avalanche",
+               "release_date": 2015
             },
             {
                "id": 3,
-               "sound":"/audios/audio39.mp3",
-               "title":"Papercut",
-               "release_date": 2000
+               "sound":"/audios/audio48.mp3",
+               "title":"Drown",
+               "release_date": 2015
             },
             {
                "id": 4,
-               "sound":"/audios/audio41.mp3",
-               "title":"New Divide",
-               "release_date": 2009
+               "sound":"/audios/audio49.mp3",
+               "title":"True Friends",
+               "release_date": 2015
             },
             {
                "id": 5,
-               "sound":"/audios/audio42.mp3",
-               "title":"What i've done",
-               "release_date": 2007
+               "sound":"/audios/audio50.mp3",
+               "title":"Teardrops",
+               "release_date": 2020
             },
             {
                "id": 6,
-               "sound":"/audios/audio43.mp3",
-               "title":"Iridescent",
-               "release_date": 2010
+               "sound":"/audios/audio51.mp3",
+               "title":"MANTRA",
+               "release_date": 2019
             },
             {
                "id": 7,
-               "sound":"/audios/audio44.mp3",
-               "title":"Burn it Down",
-               "release_date": 2012
+               "sound":"/audios/audio52.mp3",
+               "title":"Medicine",
+               "release_date": 2019
             },
             {
                "id": 8,
-               "sound":"/audios/audio45.mp3",
-               "title":"Faint",
-               "release_date": 2003
+               "sound":"/audios/audio53.mp3",
+               "title":"in the dark",
+               "release_date": 2019
             },
             {
                "id": 9,
-               "sound":"/audios/audio46.mp3",
-               "title":"Somewhere I Belong",
-               "release_date": 2003
+               "sound":"/audios/audio54.mp3",
+               "title":"why you gotta kick me when i'm down?",
+               "release_date": 2019
             }
          ]
       },
@@ -376,7 +376,54 @@
          "slug":"evanescence",
          "genre": "rock",
          "sounds": [
-            {}
+            {
+               "id": 1,
+               "sound": "/audios/audio55.mp3",
+               "title": "Lithium",
+               "release_date": 2006
+            },
+            {
+               "id": 2,
+               "sound":"/audios/audio56.mp3",
+               "title": "Going Under",
+               "release_date": 2003
+            },
+            {
+               "id": 3,
+               "sound":"/audios/audio57.mp3",
+               "title": "Bring Me to Life",
+               "release_date": 2003
+            },
+            {
+               "id": 4,
+               "sound":"/audios/audio58.mp3",
+               "title": "Call Me When You're Sober",
+               "release_date": 2006
+            },
+            {
+               "id": 5,
+               "sound":"/audios/audio59.mp3",
+               "title": "Tourniquet",
+               "release_date": 2003
+            },
+            {
+               "id": 6,
+               "sound":"/audios/audio60.mp3",
+               "title": "Imaginary",
+               "release_date": 2000
+            },
+            {
+               "id": 7,
+               "sound":"/audios/audio61.mp3",
+               "title": "Haunted",
+               "release_date": 2003
+            },
+            {
+               "id": 8,
+               "sound":"/audios/audio62.mp3",
+               "title": "My Last Breath",
+               "release_date": 2003
+            }
          ]
       },
       {

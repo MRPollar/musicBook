@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 import { IoMdClose } from 'react-icons/io';
 import { MdMinimize, MdLoop } from 'react-icons/md';
@@ -99,9 +99,9 @@ export default function Player({ prev, next, handleMusic, handleVisible, img, al
                         {album.map((a) => {
                            let titulo = `${name} - ${a.title}`
                            if(a.id === musica.id){
-                              return <li key={a.id}><button onClick={()=> handleMusic(a.id)} className='active'>{titulo.length >= 28 ? titulo.substring(0,28)+"...":titulo}</button></li>
+                              return <li key={a.id}><button title={titulo} onClick={()=> handleMusic(a.id)} className='active'>{titulo.length >= 28 ? titulo.substring(0,28)+"...":titulo}</button></li>
                            } else {
-                              return <li key={a.id}><button onClick={()=> handleMusic(a.id)}>{titulo.length >= 28 ? titulo.substring(0,28)+"...":titulo}</button></li>
+                              return <li key={a.id}><button title={titulo} onClick={()=> handleMusic(a.id)}>{titulo.length >= 28 ? titulo.substring(0,28)+"...":titulo}</button></li>
                            }
                         })}
                      </ul>
